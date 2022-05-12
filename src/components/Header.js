@@ -14,7 +14,8 @@ const Header = () => {
         <header>
             <div className="header--logo--title--container">
                 <img src={Logo} alt="abstract's logo" className="header--logo"/>
-                <h1 className="header--title">| Help Center</h1>
+                <span>|</span>
+                <h1 className="header--title"> Help Center</h1>
             </div>
             <button onClick={openNavigation} aria-label="toggle navigation" className="mobile--menu--navigation">
                 <img src={toggleNavigation ? Open_menu : Close_menu} alt=""/>

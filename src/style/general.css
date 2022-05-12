@@ -16,4 +16,34 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+header {
+  border: 1px solid red;
+  background: #000000;
+  color: #fff;
+}
+
+header .header--logo--title--container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: .5rem;
+}
+
+header .header--logo--title--container .header--logo {
+  width: 126px;
+  height: 32px;
+}
+
+header .header--logo--title--container span {
+  font-size: 1.5rem;
+}
+
+header .header--logo--title--container .header--title {
+  font-weight: 400;
+  font-size: 1.5rem;
+}
 /*# sourceMappingURL=general.css.map */
