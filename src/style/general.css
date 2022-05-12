@@ -18,7 +18,6 @@ img {
 }
 
 header {
-  border: 1px solid red;
   background: #000000;
   color: #fff;
 }
@@ -62,8 +61,32 @@ header .nav--buttons {
 }
 
 header .nav--buttons.show {
+  border-top: 1px solid #dadbf1;
+  padding: 3rem 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  gap: 1rem;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+header .nav--buttons.show button {
+  border: none;
+  background: none;
+  color: #fff;
+  font-family: inherit;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+header .nav--buttons.show button:nth-child(1) {
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #dadbf1;
 }
 /*# sourceMappingURL=general.css.map */
