@@ -2,7 +2,10 @@ import "./style/general.css";
 
 const App = () => {
   return (
-    <p>hey</p>
+    <div className="App">
+      
+
+    </div>
   );
 }
 
