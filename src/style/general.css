@@ -36,6 +36,24 @@ header {
   position: relative;
 }
 
+@-webkit-keyframes width {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
+@keyframes width {
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
+}
+
 header .header--logo--title--container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -84,6 +102,8 @@ header .mobile--menu--navigation.mobile--menu--search img, header .mobile--menu-
 
 header .nav--buttons {
   display: none;
+  -webkit-animation: width 0.2s;
+          animation: width 0.2s;
 }
 
 header .nav--buttons.show {
@@ -137,6 +157,8 @@ header .header--search--form {
           align-items: center;
   gap: 1rem;
   padding: 1rem 0;
+  -webkit-animation: width 0.2s;
+          animation: width 0.2s;
 }
 
 header .header--search--form.show {
