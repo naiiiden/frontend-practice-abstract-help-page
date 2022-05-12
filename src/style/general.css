@@ -151,6 +151,10 @@ header .header--search--form .header--search--form--input {
   padding: 0 .5rem;
 }
 
+header .header--search--form .header--search--form--input::-webkit-search-cancel-button, header .header--search--form .header--search--form--input::-webkit-search-decoration, header .header--search--form .header--search--form--input::-webkit-search-results-button, header .header--search--form .header--search--form--input::-webkit-search-results-decoration {
+  display: none;
+}
+
 header .header--search--form .header--search--form--input::-webkit-input-placeholder {
   font-size: 1.25rem;
   font-family: Open Sans, sans-serif;
