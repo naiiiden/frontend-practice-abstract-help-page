@@ -2,6 +2,7 @@ import { useState } from "react";
 import Open_menu from "../images/icon-menu.svg";
 import Close_menu from "../images/icon-close-menu.svg";
 import Search_icon from "../images/icon-search.svg";
+import Search_icon_form from "../images/icon-close-menu-form.svg";
 import Logo from "../images/logo-abstract.svg";
 
 const Header = () => {
@@ -29,6 +30,12 @@ const Header = () => {
                 <button className="header--nav--button--request">Submit a Request</button>
                 <button className="header--nav--button-sign-in">Sign in</button>
             </nav>
+            <form role="search" className="header--search--form">
+                <input type="search" className="header--search--form--input" placeholder="Search"/>
+                <button type="button" className="header--search--form--close" aria-label="close search">
+                    <img src={Search_icon_form} alt=""/>
+                </button>
+            </form>
         </header>
     )
 }

@@ -120,4 +120,57 @@ header .nav--buttons.show button:nth-child(1) {
   padding-bottom: 1rem;
   border-bottom: 1px solid #dadbf1;
 }
+
+header .header--search--form {
+  background: #fff;
+  z-index: 99;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  gap: 1rem;
+  padding: 1rem 0;
+}
+
+header .header--search--form .header--search--form--input {
+  height: 80%;
+  width: 80%;
+  padding: 0 .5rem;
+}
+
+header .header--search--form .header--search--form--input::-webkit-input-placeholder {
+  font-size: 1.25rem;
+  font-family: Open Sans, sans-serif;
+}
+
+header .header--search--form .header--search--form--input:-ms-input-placeholder {
+  font-size: 1.25rem;
+  font-family: Open Sans, sans-serif;
+}
+
+header .header--search--form .header--search--form--input::-ms-input-placeholder {
+  font-size: 1.25rem;
+  font-family: Open Sans, sans-serif;
+}
+
+header .header--search--form .header--search--form--input::placeholder {
+  font-size: 1.25rem;
+  font-family: Open Sans, sans-serif;
+}
+
+header .header--search--form .header--search--form--close {
+  border: none;
+  background: none;
+  width: 1rem;
+  height: 1rem;
+}
 /*# sourceMappingURL=general.css.map */
