@@ -128,9 +128,7 @@ header .header--search--form {
   height: 100%;
   position: absolute;
   left: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -139,6 +137,12 @@ header .header--search--form {
           align-items: center;
   gap: 1rem;
   padding: 1rem 0;
+}
+
+header .header--search--form.show {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 header .header--search--form .header--search--form--input {

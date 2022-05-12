@@ -7,9 +7,10 @@ import Logo from "../images/logo-abstract.svg";
 
 const Header = () => {
     const [toggleNavigation, setToggleNavigation] = useState(true);
-    const openNavigation = () => {
-        setToggleNavigation(!toggleNavigation);
-    }
+    const openNavigation = () => setToggleNavigation(!toggleNavigation);
+
+    const [toggleSearch, setToggleSearch] = useState(true);
+    const openSearch = () => setToggleSearch(!toggleSearch);
 
     return (
         <header>
@@ -19,7 +20,7 @@ const Header = () => {
                 <h1 className="header--title"> Help Center</h1>
             </div>
             <div className="mobile--buttons--container">
-                <button aria-label="search" className="mobile--menu--search">
+                <button onClick={openSearch} aria-label="search" className="mobile--menu--search">
                     <img src={Search_icon} alt=""/>
                 </button>
                 <button onClick={openNavigation} aria-label="toggle navigation" className="mobile--menu--navigation">
@@ -30,9 +31,9 @@ const Header = () => {
                 <button className="header--nav--button--request">Submit a Request</button>
                 <button className="header--nav--button-sign-in">Sign in</button>
             </nav>
-            <form role="search" className="header--search--form">
+            <form role="search" className={`header--search--form ${toggleSearch ? "" : "show"}`}>
                 <input type="search" className="header--search--form--input" placeholder="Search"/>
-                <button type="button" className="header--search--form--close" aria-label="close search">
+                <button onClick={openSearch} type="button" className="header--search--form--close" aria-label="close search">
                     <img src={Search_icon_form} alt=""/>
                 </button>
             </form>

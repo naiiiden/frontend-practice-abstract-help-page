@@ -93,11 +93,15 @@ header {
         height: 100%;
         position: absolute;
         left: 0;
-        display: flex;
+        display: none;
         justify-content: center;
         align-items: center;
         gap: 1rem;
         padding: 1rem 0;
+
+        &.show {
+            display: flex;
+        }
 
         .header--search--form--input {
             height: 80%;
