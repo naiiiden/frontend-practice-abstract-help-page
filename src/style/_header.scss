@@ -1,11 +1,18 @@
 header {
     background: $black;
     color: $white;
+    height: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 .5rem;
+    position: relative;
 
     .header--logo--title--container {
         display: flex;
         align-items: center;
-        gap: .5rem;
+        gap: .25rem;
 
         .header--logo {
             width: 126px;
@@ -22,13 +29,28 @@ header {
         }
     }
 
+    .mobile--buttons--container {
+        display: flex;
+        gap: .25rem;
+    }
+
     .mobile--menu--navigation, .mobile--menu--search {
         border: none;
-        background: none;
+        background: none;;
+        
+        &.mobile--menu--navigation {
+            img {
+                width: 24px;
+                height: 22px;
+            }
+        }
 
-        img {
-            width: 28px;
-            height: 26px;
+        &.mobile--menu--search {
+
+            img {
+                width: 28px;
+                height: 26px;
+            }
         }
     }
 
@@ -36,6 +58,11 @@ header {
         display: none;
 
         &.show {
+            position: absolute;
+            top: 5.25rem;
+            left: 0;
+            width: 100%;
+            background: $black;
             border-top: 1px solid $gray;
             padding: 3rem 0;
             display: flex;

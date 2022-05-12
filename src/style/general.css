@@ -20,6 +20,20 @@ img {
 header {
   background: #000000;
   color: #fff;
+  height: 85px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 0 .5rem;
+  position: relative;
 }
 
 header .header--logo--title--container {
@@ -29,7 +43,7 @@ header .header--logo--title--container {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  gap: .5rem;
+  gap: .25rem;
 }
 
 header .header--logo--title--container .header--logo {
@@ -46,12 +60,24 @@ header .header--logo--title--container .header--title {
   font-size: 1.5rem;
 }
 
+header .mobile--buttons--container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: .25rem;
+}
+
 header .mobile--menu--navigation, header .mobile--menu--search {
   border: none;
   background: none;
 }
 
-header .mobile--menu--navigation img, header .mobile--menu--search img {
+header .mobile--menu--navigation.mobile--menu--navigation img, header .mobile--menu--search.mobile--menu--navigation img {
+  width: 24px;
+  height: 22px;
+}
+
+header .mobile--menu--navigation.mobile--menu--search img, header .mobile--menu--search.mobile--menu--search img {
   width: 28px;
   height: 26px;
 }
@@ -61,6 +87,11 @@ header .nav--buttons {
 }
 
 header .nav--buttons.show {
+  position: absolute;
+  top: 5.25rem;
+  left: 0;
+  width: 100%;
+  background: #000000;
   border-top: 1px solid #dadbf1;
   padding: 3rem 0;
   display: -webkit-box;
