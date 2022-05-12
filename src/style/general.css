@@ -46,4 +46,24 @@ header .header--logo--title--container .header--title {
   font-weight: 400;
   font-size: 1.5rem;
 }
+
+header .mobile--menu--navigation, header .mobile--menu--search {
+  border: none;
+  background: none;
+}
+
+header .mobile--menu--navigation img, header .mobile--menu--search img {
+  width: 28px;
+  height: 26px;
+}
+
+header .nav--buttons {
+  display: none;
+}
+
+header .nav--buttons.show {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
 /*# sourceMappingURL=general.css.map */

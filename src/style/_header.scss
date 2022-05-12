@@ -22,4 +22,24 @@ header {
             font-size: 1.5rem;
         }
     }
+
+    .mobile--menu--navigation, .mobile--menu--search {
+        border: none;
+        background: none;
+
+        img {
+            width: 28px;
+            height: 26px;
+        }
+    }
+
+    .nav--buttons {
+        display: none;
+
+        &.show {
+            display: flex;
+        }
+    }
+
+
 }

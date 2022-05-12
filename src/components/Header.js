@@ -23,9 +23,9 @@ const Header = () => {
             <button aria-label="search" className="mobile--menu--search">
                 <img src={Search_icon} alt=""/>
             </button>
-            <nav className="nav--buttons">
-                <button class="header--nav--button--request">Submit a Request</button>
-                <button class="header--nav--button-sign-in">Sign in</button>
+            <nav className={`nav--buttons ${toggleNavigation ? "" : "show"}`}>
+                <button className="header--nav--button--request">Submit a Request</button>
+                <button className="header--nav--button-sign-in">Sign in</button>
             </nav>
         </header>
     )
