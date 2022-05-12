@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+
+$purple :#4C5FD5;
+$gray: #dadbf1;
+$black: #000000;
+$white: #fff;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    font-family: Open Sans, sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
