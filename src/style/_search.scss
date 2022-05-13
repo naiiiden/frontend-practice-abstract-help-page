@@ -1,0 +1,29 @@
+.search--form {
+    background: #dadbf1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 6rem 0;
+
+    .search--form--label {
+        font-size: 2.5rem;
+        font-weight: 500;
+        letter-spacing: -3px;
+    }
+
+    .search--form--input {
+        width: 90%;
+        max-width: 720px;
+        height: 4rem;
+        padding: .5rem 1rem;
+        border-radius: .25rem;
+        border: 1px solid #000;
+
+        &::placeholder {
+            font-family: Open Sans, sans-serif;
+            font-size: 1.25rem;
+        }
+    }
+}
