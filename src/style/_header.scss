@@ -208,8 +208,12 @@ header {
                 font-size: 1.35rem;
                 
                 &:hover {
+
+                    a {
+                        color: $black;
+                    }
+                    
                     background: $white;
-                    color: $black;
                     transition: .2s;
                 }
             }

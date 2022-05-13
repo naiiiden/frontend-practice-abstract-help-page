@@ -265,9 +265,11 @@ header .header--search--form .header--search--form--close {
   }
   header .nav--buttons .header--nav--button--sign-in:hover {
     background: #fff;
-    color: #000000;
     -webkit-transition: .2s;
     transition: .2s;
+  }
+  header .nav--buttons .header--nav--button--sign-in:hover a {
+    color: #000000;
   }
 }
 /*# sourceMappingURL=general.css.map */
