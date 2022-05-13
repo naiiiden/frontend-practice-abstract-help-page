@@ -29,7 +29,7 @@ const Header = () => {
             </div>
             <nav className={`nav--buttons ${toggleNavigation ? "" : "show"}`}>
                 <button className="header--nav--button--request">Submit a Request</button>
-                <button className="header--nav--button-sign-in">Sign in</button>
+                <button className="header--nav--button--sign-in">Sign in</button>
             </nav>
             <form role="search" className={`header--search--form ${toggleSearch ? "" : "show"}`}>
                 <input type="search" className="header--search--form--input" placeholder="Search"/>
