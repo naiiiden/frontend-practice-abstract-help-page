@@ -310,20 +310,30 @@ header .header--search--form .header--search--form--close {
 .search--form .search--form--input::-webkit-input-placeholder {
   font-family: Open Sans, sans-serif;
   font-size: 1.25rem;
+  font-weight: 500;
 }
 
 .search--form .search--form--input:-ms-input-placeholder {
   font-family: Open Sans, sans-serif;
   font-size: 1.25rem;
+  font-weight: 500;
 }
 
 .search--form .search--form--input::-ms-input-placeholder {
   font-family: Open Sans, sans-serif;
   font-size: 1.25rem;
+  font-weight: 500;
 }
 
 .search--form .search--form--input::placeholder {
   font-family: Open Sans, sans-serif;
   font-size: 1.25rem;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .search--form .search--form--label {
+    font-size: 4rem;
+  }
 }
 /*# sourceMappingURL=general.css.map */
