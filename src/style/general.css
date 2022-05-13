@@ -333,6 +333,10 @@ header .header--search--form .header--search--form--close {
   font-weight: 500;
 }
 
+.search--form .arrow {
+  fill: red;
+}
+
 @media screen and (min-width: 768px) {
   .search--form .search--form--label {
     font-size: 4rem;
