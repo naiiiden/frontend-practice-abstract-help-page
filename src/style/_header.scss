@@ -25,6 +25,8 @@ header {
         gap: .25rem;
 
         .header--logo {
+            display: grid;
+            place-content: center;
             width: 126px;
             height: 32px;
         }
@@ -61,7 +63,6 @@ header {
         }
 
         &.mobile--menu--search {
-
             img {
                 width: 28px;
                 height: 26px;
@@ -149,6 +150,13 @@ header {
         padding: 0 3rem;
 
         .header--logo--title--container {
+            .header--logo {
+                &:hover {
+                    opacity: .8;
+                    transition: .2s;
+                }
+            }
+
             .header--title {
                 &:hover {
                     text-decoration: underline;

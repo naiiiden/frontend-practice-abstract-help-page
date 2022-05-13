@@ -15,7 +15,7 @@ const Header = () => {
     return (
         <header>
             <div className="header--logo--title--container">
-                <img src={Logo} alt="abstract's logo" className="header--logo"/>
+                <a href="https://www.abstract.com/" title="Go to abstract.com"><img src={Logo} alt="abstract's logo" className="header--logo"/></a>
                 <span>|</span>
                 <h1 className="header--title"><a href="#">Help Center</a></h1>
             </div>
