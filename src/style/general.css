@@ -304,14 +304,7 @@ header .header--search--form .header--search--form--close {
   position: relative;
 }
 
-.search--form .input--arrow--container .arrow {
-  position: absolute;
-  right: 1rem;
-  top: .6rem;
-  width: 20px;
-}
-
-.search--form .search--form--input {
+.search--form .input--arrow--container .search--form--input {
   width: 100%;
   height: 4rem;
   padding: .5rem 1rem;
@@ -321,28 +314,35 @@ header .header--search--form .header--search--form--close {
           box-shadow: 0 9px 14px 0 rgba(0, 0, 0, 0.1);
 }
 
-.search--form .search--form--input::-webkit-input-placeholder {
+.search--form .input--arrow--container .search--form--input::-webkit-input-placeholder {
   font-family: Open Sans, sans-serif;
   font-size: 1.25rem;
   font-weight: 500;
 }
 
-.search--form .search--form--input:-ms-input-placeholder {
+.search--form .input--arrow--container .search--form--input:-ms-input-placeholder {
   font-family: Open Sans, sans-serif;
   font-size: 1.25rem;
   font-weight: 500;
 }
 
-.search--form .search--form--input::-ms-input-placeholder {
+.search--form .input--arrow--container .search--form--input::-ms-input-placeholder {
   font-family: Open Sans, sans-serif;
   font-size: 1.25rem;
   font-weight: 500;
 }
 
-.search--form .search--form--input::placeholder {
+.search--form .input--arrow--container .search--form--input::placeholder {
   font-family: Open Sans, sans-serif;
   font-size: 1.25rem;
   font-weight: 500;
+}
+
+.search--form .input--arrow--container .arrow {
+  position: absolute;
+  right: 1rem;
+  top: .6rem;
+  width: 20px;
 }
 
 @media screen and (min-width: 768px) {
@@ -354,6 +354,20 @@ header .header--search--form .header--search--form--close {
 @media screen and (min-width: 1024px) {
   .search--form .search--form--label {
     font-size: 5rem;
+  }
+  .search--form .input--arrow--container .search--form--input:focus {
+    outline: none;
+    border: 1px solid #4c5fd5;
+  }
+  .search--form .input--arrow--container:hover .search--form--input {
+    border: 1px solid #4c5fd5;
+    -webkit-transition: .2s;
+    transition: .2s;
+  }
+  .search--form .input--arrow--container:hover .arrow {
+    fill: #4c5fd5;
+    -webkit-transition: .2s;
+    transition: .2s;
   }
 }
 /*# sourceMappingURL=general.css.map */
