@@ -95,9 +95,15 @@ header {
                 font-size: 1.5rem;
                 font-weight: 500;
 
+                a {
+                    color: $white;
+                    text-decoration: none;
+                }
+
                 &:nth-child(1) {
                     padding-bottom: 1rem;
                     border-bottom: 1px solid $gray;
+
                 }
             }
         }
@@ -176,6 +182,11 @@ header {
             .header--nav--button--request, .header--nav--button--sign-in {
                 font-family: inherit;
                 cursor: pointer;
+                
+                a {
+                    text-decoration: none;
+                    color: $white;
+                }
             }
 
             .header--nav--button--request {
@@ -185,6 +196,7 @@ header {
                 border-radius: .25rem;
                 padding: .5rem 1.5rem;
                 font-size: 1.35rem;
+
             }
 
             .header--nav--button--sign-in {
@@ -194,7 +206,7 @@ header {
                 border-radius: .25rem;
                 padding: .5rem 1.5rem;
                 font-size: 1.35rem;
-
+                
                 &:hover {
                     background: $white;
                     color: $black;
