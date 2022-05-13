@@ -78,6 +78,11 @@ header .header--logo--title--container .header--title {
   font-size: 1.5rem;
 }
 
+header .header--logo--title--container .header--title a {
+  text-decoration: none;
+  color: #fff;
+}
+
 header .mobile--buttons--container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -208,6 +213,10 @@ header .header--search--form .header--search--form--close {
   header {
     padding: 0 3rem;
   }
+  header .header--logo--title--container .header--title:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
   header .mobile--menu--navigation, header .mobile--menu--search {
     display: none;
   }
@@ -236,6 +245,12 @@ header .header--search--form .header--search--form--close {
     border-radius: .25rem;
     padding: .5rem 1.5rem;
     font-size: 1.35rem;
+  }
+  header .nav--buttons .header--nav--button--sign-in:hover {
+    background: #fff;
+    color: #000000;
+    -webkit-transition: .2s;
+    transition: .2s;
   }
 }
 /*# sourceMappingURL=general.css.map */

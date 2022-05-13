@@ -17,7 +17,7 @@ const Header = () => {
             <div className="header--logo--title--container">
                 <img src={Logo} alt="abstract's logo" className="header--logo"/>
                 <span>|</span>
-                <h1 className="header--title"> Help Center</h1>
+                <h1 className="header--title"><a href="#">Help Center</a></h1>
             </div>
             <div className="mobile--buttons--container">
                 <button onClick={openSearch} aria-label="search" className="mobile--menu--search">

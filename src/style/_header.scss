@@ -36,6 +36,11 @@ header {
         .header--title {
             font-weight: 400;
             font-size: 1.5rem;
+
+            a {
+                text-decoration: none;
+                color: #fff;
+            }
         }
     }
 
@@ -143,6 +148,15 @@ header {
     header {
         padding: 0 3rem;
 
+        .header--logo--title--container {
+            .header--title {
+                &:hover {
+                    text-decoration: underline;
+                    cursor: pointer;
+                }
+            }
+        }
+
         .mobile--menu--navigation, .mobile--menu--search {
             display: none;
         }
@@ -172,6 +186,12 @@ header {
                 border-radius: .25rem;
                 padding: .5rem 1.5rem;
                 font-size: 1.35rem;
+
+                &:hover {
+                    background: $white;
+                    color: $black;
+                    transition: .2s;
+                }
             }
         }
     }
