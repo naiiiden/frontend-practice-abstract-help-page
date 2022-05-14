@@ -28,8 +28,8 @@ const Header = () => {
                 </button>
             </div>
             <nav className={`nav--buttons ${toggleNavigation ? "" : "show"}`}>
-                <button className="header--nav--button--request"><a href="https://help.abstract.com/hc/en-us/articles/360050382291-Contact-Support">Submit a Request</a></button>
-                <button className="header--nav--button--sign-in"><a href="https://help.abstract.com/hc/en-us/signin?return_to=https%3A%2F%2Fhelp.abstract.com%2Fhc%2Fen-us&locale=en-us">Sign in</a></button>
+                <a className="header--nav--button--request" href="https://help.abstract.com/hc/en-us/articles/360050382291-Contact-Support">Submit a Request</a>
+                <a className="header--nav--button--sign-in" href="https://help.abstract.com/hc/en-us/signin?return_to=https%3A%2F%2Fhelp.abstract.com%2Fhc%2Fen-us&locale=en-us">Sign in</a>
             </nav>
             <form role="search" className={`header--search--form ${toggleSearch ? "" : "show"}`}>
                 <input type="search" className="header--search--form--input" placeholder="Search"/>

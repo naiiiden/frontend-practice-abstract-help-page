@@ -136,24 +136,18 @@ header .nav--buttons.show {
           align-items: center;
 }
 
-header .nav--buttons.show button {
+header .nav--buttons.show a {
   border: none;
   background: none;
   color: #fff;
   font-family: inherit;
   font-size: 1.5rem;
   font-weight: 500;
-}
-
-header .nav--buttons.show button a {
-  display: inline-block;
-  height: 100%;
-  width: 100%;
   color: #fff;
   text-decoration: none;
 }
 
-header .nav--buttons.show button:nth-child(1) {
+header .nav--buttons.show a:nth-child(1) {
   padding-bottom: 1rem;
   border-bottom: 1px solid #dadbf1;
 }
@@ -246,8 +240,6 @@ header .header--search--form .header--search--form--close {
   header .nav--buttons .header--nav--button--request, header .nav--buttons .header--nav--button--sign-in {
     font-family: inherit;
     cursor: pointer;
-  }
-  header .nav--buttons .header--nav--button--request a, header .nav--buttons .header--nav--button--sign-in a {
     text-decoration: none;
     color: #fff;
   }
@@ -268,12 +260,10 @@ header .header--search--form .header--search--form--close {
     font-size: 1.35rem;
   }
   header .nav--buttons .header--nav--button--sign-in:hover {
+    color: #000000;
     background: #fff;
     -webkit-transition: .2s;
     transition: .2s;
-  }
-  header .nav--buttons .header--nav--button--sign-in:hover a {
-    color: #000000;
   }
 }
 
