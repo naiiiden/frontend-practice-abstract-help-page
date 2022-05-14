@@ -115,6 +115,7 @@ header .nav--buttons {
 }
 
 header .nav--buttons.show {
+  z-index: 99;
   position: absolute;
   top: 5.25rem;
   left: 0;
@@ -145,6 +146,9 @@ header .nav--buttons.show button {
 }
 
 header .nav--buttons.show button a {
+  display: inline-block;
+  height: 100%;
+  width: 100%;
   color: #fff;
   text-decoration: none;
 }

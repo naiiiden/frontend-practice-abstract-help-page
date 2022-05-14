@@ -75,6 +75,7 @@ header {
         animation: width 0.2s;
 
         &.show {
+            z-index: 99;
             position: absolute;
             top: 5.25rem;
             left: 0;
@@ -96,6 +97,9 @@ header {
                 font-weight: 500;
 
                 a {
+                    display: inline-block;
+                    height: 100%;
+                    width: 100%;
                     color: $white;
                     text-decoration: none;
                 }
@@ -208,7 +212,6 @@ header {
                 font-size: 1.35rem;
                 
                 &:hover {
-
                     a {
                         color: $black;
                     }
