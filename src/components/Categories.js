@@ -6,8 +6,6 @@ import dec4 from "../images/dec4.png";
 import dec5 from "../images/dec5.png";
 import dec6 from "../images/dec6.png";
 
-
-
 const Categories = () => {
     return (
         <main>

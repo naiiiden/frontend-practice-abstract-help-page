@@ -416,6 +416,12 @@ header .header--search--form .header--search--form--close {
   }
 }
 
+@media screen and (min-width: 1024px) {
+  .category--item--container .category--item--subcontainer .category--item--link:hover {
+    text-decoration: underline;
+  }
+}
+
 @media screen and (min-width: 1280px) {
   .category--item--container .category--item--img {
     max-height: 5.3rem;
