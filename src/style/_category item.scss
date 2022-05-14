@@ -30,6 +30,8 @@
 
 @media screen and (min-width: 768px) {
     .category--item--container {
+        gap: 1.5rem;
+
         .category--item--img {
             max-height: 5rem;
         }
@@ -66,5 +68,16 @@ main {
         display: flex;
         flex-direction: column;
         gap: 3rem;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    main {
+        padding: 5rem;
+        gap: 4rem;
+
+        .categories--container {
+            gap: 4rem;
+        }
     }
 }
