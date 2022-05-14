@@ -35,3 +35,11 @@
         }
     }
 }
+
+@media screen and (min-width: 1280px) {
+    .category--item--container {
+        .category--item--img {
+            max-height: 5.3rem;
+        }
+    }
+}
