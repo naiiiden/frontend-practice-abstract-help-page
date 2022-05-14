@@ -17,7 +17,7 @@ const Header = () => {
             <div className="header--logo--title--container">
                 <a href="https://www.abstract.com/" title="Go to abstract.com"><img src={Logo} alt="abstract's logo" className="header--logo"/></a>
                 <span>|</span>
-                <h1 className="header--title"><a href="#">Help Center</a></h1>
+                <h1 className="header--title"><a href="https://help.abstract.com/hc/en-us">Help Center</a></h1>
             </div>
             <div className="mobile--buttons--container">
                 <button onClick={openSearch} aria-label="search" className="mobile--menu--search">
