@@ -463,4 +463,26 @@ main .categories--container {
     gap: 4rem;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  main {
+    padding: 8rem 5rem;
+    display: -ms-grid;
+    display: grid;
+    place-content: center;
+  }
+  main .categories--container {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+  }
+  .category--item--container {
+    min-width: 400px;
+    max-width: 565px;
+  }
+}
 /*# sourceMappingURL=general.css.map */
