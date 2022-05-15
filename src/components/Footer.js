@@ -7,8 +7,7 @@ const Footer = () => {
                 <div className="footer--nav--container">
                     <ul className="footer--nav--ul">
                         <li><h3 className="footer--nav--ul--heading">Abstract</h3></li>
-                        <li><a href="">Start</a></li>
-                        <li><a href="">Trial</a></li>
+                        <li><a href="">Start Trial</a></li>
                         <li><a href="">Pricing</a></li>
                         <li><a href="">Download</a></li>
                     </ul>

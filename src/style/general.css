@@ -574,4 +574,28 @@ footer .footer--copyright--container .footer--copyright--logo {
     width: unset;
   }
 }
+
+@media screen and (min-width: 1024px) {
+  footer {
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 3rem;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    gap: 0;
+  }
+  footer .footer--nav .footer--nav--container .footer--nav--ul--resources {
+    margin-left: unset;
+  }
+  footer .footer--copyright--container {
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+  }
+}
 /*# sourceMappingURL=general.css.map */
