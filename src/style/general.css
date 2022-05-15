@@ -557,4 +557,21 @@ footer .footer--copyright--container .footer--copyright--logo {
   width: 2.25rem;
   height: 2.25rem;
 }
+
+@media screen and (min-width: 768px) {
+  footer {
+    padding: 3rem 1.5rem;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+  }
+  footer .footer--nav .footer--nav--container {
+    gap: 2rem;
+    width: unset;
+  }
+}
 /*# sourceMappingURL=general.css.map */

@@ -56,3 +56,18 @@ footer {
         }
     }
 }
+
+@media screen and (min-width: 768px) {
+    footer {
+        padding: 3rem 1.5rem;
+        flex-direction: row;
+        align-items: flex-end;
+
+        .footer--nav {
+            .footer--nav--container {
+                gap: 2rem;
+                width: unset;
+            }
+        }
+    }
+}
