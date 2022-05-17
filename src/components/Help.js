@@ -16,11 +16,11 @@ const Help = () => {
     return (
         <div>
             {!isDesktop ? (
-                <button aria-label="Help" className="help--button" style={{background: "purple"}}>
+                <button aria-label="Help" className="help--button">
                 <img src={Help_button} alt="" className="help--icon"/>
             </button>
             ) : (
-                <button aria-label="Help" className="help--button" style={{background: "purple"}}>
+                <button aria-label="Help" className="help--button">
                     <img src={Help_button} alt="" className="help--icon"/>
                     <span>Help</span>
                 </button>

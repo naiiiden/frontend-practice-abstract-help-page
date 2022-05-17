@@ -601,4 +601,14 @@ footer .footer--copyright--container .footer--copyright--logo {
         align-self: flex-end;
   }
 }
+
+.help--button {
+  margin: 1rem;
+  position: fixed;
+  z-index: 99;
+  bottom: 0;
+  right: 0;
+  background-color: #4c5fd5;
+  color: #fff;
+}
 /*# sourceMappingURL=general.css.map */
