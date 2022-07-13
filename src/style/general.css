@@ -219,6 +219,10 @@ header .header--search--form .header--search--form--close {
   header {
     padding: 0 3rem;
   }
+  header .header--logo--title--container .header--logo {
+    -webkit-transition: .2s;
+    transition: .2s;
+  }
   header .header--logo--title--container .header--logo:hover {
     opacity: .8;
     -webkit-transition: .2s;
@@ -258,6 +262,8 @@ header .header--search--form .header--search--form--close {
     border-radius: .25rem;
     padding: .5rem 1.5rem;
     font-size: 1.35rem;
+    -webkit-transition: .2s;
+    transition: .2s;
   }
   header .nav--buttons .header--nav--button--sign-in:hover {
     color: #000000;
