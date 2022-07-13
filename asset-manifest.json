@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/frontend-practice-abstract-help-page/static/css/main.6b6f3213.css",
-    "main.js": "/frontend-practice-abstract-help-page/static/js/main.43845319.js",
+    "main.css": "/frontend-practice-abstract-help-page/static/css/main.82c94325.css",
+    "main.js": "/frontend-practice-abstract-help-page/static/js/main.9b36f4e3.js",
     "static/media/dec1.png": "/frontend-practice-abstract-help-page/static/media/dec1.fc28b1f37a8c2843c9fe.png",
     "static/media/dec4.png": "/frontend-practice-abstract-help-page/static/media/dec4.e3c3aa301a61027ad048.png",
     "static/media/dec2.png": "/frontend-practice-abstract-help-page/static/media/dec2.3b51d8fee187b9769700.png",
@@ -15,11 +15,11 @@
     "static/media/icon-close-menu-form.svg": "/frontend-practice-abstract-help-page/static/media/icon-close-menu-form.2d5f02916aa6daae541444ee4f884040.svg",
     "static/media/icon-close-menu.svg": "/frontend-practice-abstract-help-page/static/media/icon-close-menu.db81c104cee6fcd2a7497b025263d70e.svg",
     "static/media/icon-menu.svg": "/frontend-practice-abstract-help-page/static/media/icon-menu.163d563e3ab83b6bfd0153423c649502.svg",
-    "main.6b6f3213.css.map": "/frontend-practice-abstract-help-page/static/css/main.6b6f3213.css.map",
-    "main.43845319.js.map": "/frontend-practice-abstract-help-page/static/js/main.43845319.js.map"
+    "main.82c94325.css.map": "/frontend-practice-abstract-help-page/static/css/main.82c94325.css.map",
+    "main.9b36f4e3.js.map": "/frontend-practice-abstract-help-page/static/js/main.9b36f4e3.js.map"
   },
   "entrypoints": [
-    "static/css/main.6b6f3213.css",
-    "static/js/main.43845319.js"
+    "static/css/main.82c94325.css",
+    "static/js/main.9b36f4e3.js"
   ]
 }
