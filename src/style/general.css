@@ -355,9 +355,17 @@ header .header--search--form .header--search--form--close {
   .search--form .search--form--label {
     font-size: 5rem;
   }
+  .search--form .input--arrow--container .search--form--input {
+    -webkit-transition: .2s;
+    transition: .2s;
+  }
   .search--form .input--arrow--container .search--form--input:focus {
     outline: none;
     border: 1px solid #4c5fd5;
+  }
+  .search--form .input--arrow--container .arrow {
+    -webkit-transition: .2s;
+    transition: .2s;
   }
   .search--form .input--arrow--container:hover .search--form--input {
     border: 1px solid #4c5fd5;
