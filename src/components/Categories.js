@@ -8,7 +8,7 @@ import dec6 from "../images/dec6.png";
 
 const Categories = () => {
     return (
-        <main>
+        <div className="main--container">
             <div className="categories--container">
                 <CategoryItem src={dec1} h2Text="Using Abstract" pText="Abstract lets you manage, version, and document your designs in one place." aText="Learn More →" href="https://help.abstract.com/hc/en-us/categories/360005436612-Using-Abstract"/>
                 <CategoryItem src={dec2} h2Text="Manage your account" pText="Configure your account settings, such as your email, profile details, and password." aText="Learn More →" href="https://help.abstract.com/hc/en-us/categories/360005449431-Manage-your-account"/>
@@ -21,7 +21,7 @@ const Categories = () => {
                 <CategoryItem src={dec5} h2Text="Authenticate to Abstract" pText="Set up and configure SSO, SCIM, and Just-in-Time provisioning." aText="Learn More →" href="https://help.abstract.com/hc/en-us/categories/360005436592-Authenticate-to-Abstract"/>
                 <CategoryItem src={dec6} h2Text="Abstract Support" pText="Get in touch with a human." aText="Learn More →" href="https://help.abstract.com/hc/en-us/articles/360050382291-Contact-Support"/>
             </div>
-        </main>
+        </div>
     )
 }
 

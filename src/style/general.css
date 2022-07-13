@@ -431,7 +431,7 @@ header .header--search--form .header--search--form--close {
   }
 }
 
-main {
+.main--container {
   padding: 4rem 1rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -443,7 +443,7 @@ main {
   gap: 3rem;
 }
 
-main .categories--container {
+.main--container .categories--container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -455,23 +455,23 @@ main .categories--container {
 }
 
 @media screen and (min-width: 768px) {
-  main {
+  .main--container {
     padding: 5rem;
     gap: 4rem;
   }
-  main .categories--container {
+  .main--container .categories--container {
     gap: 4rem;
   }
 }
 
 @media screen and (min-width: 1024px) {
-  main {
+  .main--container {
     padding: 8rem 5rem;
     display: -ms-grid;
     display: grid;
     place-content: center;
   }
-  main .categories--container {
+  .main--container .categories--container {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
