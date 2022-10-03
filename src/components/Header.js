@@ -20,7 +20,7 @@ const Header = () => {
                 <h1 className="header--title"><a href="https://help.abstract.com/hc/en-us">Help Center</a></h1>
             </div>
             <div className="mobile--buttons--container">
-                <button onClick={openSearch} aria-label="search" className="mobile--menu--search">
+                <button onClick={openSearch} aria-label={toggleSearch ? "Open search" : "Close search"} aria-haspopup="true" aria-expanded={!toggleSearch ? "true" : "false"} className="mobile--menu--search">
                     <img src={Search_icon} alt=""/>
                 </button>
                 <button onClick={openNavigation} aria-label={toggleNavigation ? "Open menu" : "Close menu"} aria-expanded={!toggleNavigation ? "true" : "false"} className="mobile--menu--navigation" aria-haspopup="true">
