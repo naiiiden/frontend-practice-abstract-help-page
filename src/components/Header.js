@@ -23,7 +23,7 @@ const Header = () => {
                 <button onClick={openSearch} aria-label="search" className="mobile--menu--search">
                     <img src={Search_icon} alt=""/>
                 </button>
-                <button onClick={openNavigation} aria-label="toggle navigation" className="mobile--menu--navigation">
+                <button onClick={openNavigation} aria-label={toggleNavigation ? "Open menu" : "Close menu"} aria-expanded={!toggleNavigation ? "true" : "false"} className="mobile--menu--navigation" aria-haspopup="true">
                     <img src={toggleNavigation ? Open_menu : Close_menu} alt=""/>
                 </button>
             </div>
