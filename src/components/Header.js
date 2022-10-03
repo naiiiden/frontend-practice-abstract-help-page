@@ -31,8 +31,8 @@ const Header = () => {
                 <a className="header--nav--button--request" href="https://help.abstract.com/hc/en-us/articles/360050382291-Contact-Support">Submit a Request</a>
                 <a className="header--nav--button--sign-in" href="https://help.abstract.com/hc/en-us/signin?return_to=https%3A%2F%2Fhelp.abstract.com%2Fhc%2Fen-us&locale=en-us">Sign in</a>
             </nav>
-            <form role="search" className={`header--search--form ${toggleSearch ? "" : "show"}`}>
-                <input type="search" className="header--search--form--input" placeholder="Search"/>
+            <form className={`header--search--form ${toggleSearch ? "" : "show"}`}>
+                <input type="search" className="header--search--form--input" placeholder="Search" aria-label="Search"/>
                 <button onClick={openSearch} type="button" className="header--search--form--close" aria-label="close search">
                     <img src={Search_icon_form} alt=""/>
                 </button>
