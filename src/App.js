@@ -13,9 +13,9 @@ const App = () => {
       <main>
         <Search/>
         <Categories/>  
+        <Help/>
       </main>
       <Footer/>    
-      <Help/>
     </div>
   );
 }
