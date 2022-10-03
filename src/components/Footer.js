@@ -40,7 +40,7 @@ const Footer = () => {
             </nav>
 
             <div className="footer--copyright--container">
-                <img src={Logo} alt="logo" className="footer--copyright--logo"/>
+                <img src={Logo} alt="Abstract logo" className="footer--copyright--logo"/>
                 <p>© Copyright 2022</p>
                 <p>Abstract Studio Design, Inc.</p>
                 <p>All rights reserved</p>
