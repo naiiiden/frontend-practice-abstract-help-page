@@ -27,7 +27,7 @@ const Header = () => {
                     <img src={toggleNavigation ? Open_menu : Close_menu} alt=""/>
                 </button>
             </div>
-            <nav className={`nav--buttons ${toggleNavigation ? "" : "show"}`}>
+            <nav aria-label="Header" className={`nav--buttons ${toggleNavigation ? "" : "show"}`}>
                 <a className="header--nav--button--request" href="https://help.abstract.com/hc/en-us/articles/360050382291-Contact-Support">Submit a Request</a>
                 <a className="header--nav--button--sign-in" href="https://help.abstract.com/hc/en-us/signin?return_to=https%3A%2F%2Fhelp.abstract.com%2Fhc%2Fen-us&locale=en-us">Sign in</a>
             </nav>

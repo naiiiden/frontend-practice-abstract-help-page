@@ -3,7 +3,7 @@ import Logo from "../images/logo-abstract-small.svg";
 const Footer = () => {
     return (
         <footer>
-            <nav className="footer--nav">
+            <nav className="footer--nav" aria-label="Footer">
                 <div className="footer--nav--container">
                     <ul className="footer--nav--ul">
                         <li><h3 className="footer--nav--ul--heading">Abstract</h3></li>
